@@ -1,7 +1,11 @@
 ## Introduction
 
-Fiber cut due to construction activities (e.g. digging) is one of the main causes of network outage in metropolitan area. Thus, predicting imminent fiber cuts and rerouting traffic accordingly are crucial in maintain network reliability. For this project, we focus on using machine learning (ML) to build such an “early warning” system, by using state-of-polarization (SOP) signatures associated with different mechanical movements.  For this project, we can consider an SOP signature as a multi-variate time series (MTS). As different types of mechanical perturbations will generate different MTS patterns, we first build a classifier of SOP MTS and thus detect those that could proceed a fiber break.We note that MTS classification and anomaly detection have a lot of relevance in other industries, such as finance, manufacturing, and healthcare.
+Fiber cut due to construction activities (e.g. digging) is one of the main causes of network outage in metropolitan area. Thus, predicting imminent fiber cuts and rerouting traffic accordingly are crucial in maintain network reliability. 
 
+For this project, we focus on using machine learning (ML) to build such an “early warning” system, by using state-of-polarization (SOP) signatures associated with different mechanical movements.  For this project, we can consider an SOP signature as a multi-variate time series (MTS). As different types of mechanical perturbations will generate different MTS patterns, we first build a classifier of SOP MTS and thus detect those that could proceed a fiber break.
+
+We note that MTS classification and anomaly detection have a lot of relevance in other industries, such as finance, manufacturing, and healthcare.
+##  Key Files
 ## Data Generation
 
 For proof of concept, we first generate SOP traces in a lab environment. In particular, we use a robot arm to emulate four different types of typical mechanical disturbances to a fiber cable and record the corresponding SOP traces. These four types of mechanical disturbances mimic "hit", "rotation", "swing", and "stretch",  respectively.  In total, we generate ~10000 traces, with an average of 2500 traces per movement (label). The following animations show the robot movements and associated MTS signatures.
