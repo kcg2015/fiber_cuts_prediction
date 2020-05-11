@@ -39,6 +39,6 @@ Visualization is crucial in helping us gain intuition on what type of ML tools a
 
 Image reference [https://www.researchgate.net/figure/Sample-of-the-MNIST-dataset-of-handwritten-digits_fig1_311806756]
 ### Stokes Vector Rotation
-
+Much like addressing the locality and translation invariance issue in image classification, we can "move" SOP traces to the same starting position on a Poincare Sphere. For example, as shown in the following figures, all the traces start form s1=0, s2 = -1, and s3 = 0 position. This operation can be accomplished by Stokes Vector Rotation.
 ![img](figs/4_samples_s1_s2_s3_rot.png)
 ![img](figs/sphere_rot.png)
