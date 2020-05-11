@@ -41,4 +41,4 @@ Image reference [https://www.researchgate.net/figure/Sample-of-the-MNIST-dataset
 ### Stokes Vector Rotation
 
 ![img](figs/4_samples_s1_s2_s3_rot.png)
-![img](figs/sphere.png_rot)
+![img](figs/sphere_rot.png)
