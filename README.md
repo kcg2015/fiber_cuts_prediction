@@ -32,4 +32,8 @@ Visualization is crucial in helping us gain intuition on what type of ML tools a
 ![img](figs/4_samples_s1_s2_s3.png)
 ![img](figs/sphere.png)
 
+
+
+
+Image reference [https://www.researchgate.net/figure/Sample-of-the-MNIST-dataset-of-handwritten-digits_fig1_311806756]
 ### Stokes Vector Rotation
