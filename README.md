@@ -31,6 +31,7 @@ For data processing, we only use down-sampling. Down-sampling not only reduces t
 Visualization is crucial in helping us gain intuition on what type of ML tools are appropriate for the classification tasks. If we plot several MTS on a sphere of unit radius (so called Poincare Sphere). We can observe that though the traces have different in starting/ending positions, lengths, as well as orientations,  they share some inherent trajectory structures. The observation shows that the task of classifying these trajectories is very similar to that of classifying handwritten digits.  This intuition help us select suitable ML classification models.
 ![img](figs/4_samples_s1_s2_s3.png)
 ![img](figs/sphere.png)
+
 ![img](figs/handwritten-digits.png)
 
 
