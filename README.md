@@ -1,3 +1,10 @@
+<script src="//yihui.org/js/math-code.js"></script>
+<!-- Just one possible MathJax CDN below. You may use others. -->
+<script async
+  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 ## Introduction
 
 Fiber cut due to construction activities (e.g. digging) is one of the main causes of network outage in metropolitan area. Thus, predicting imminent fiber cuts and rerouting traffic accordingly are crucial in maintain network reliability. 
