@@ -8,6 +8,10 @@ For this project, we focus on using machine learning (ML) to build such an “ea
 
 We note that MTS classification and anomaly detection have a lot of relevance in other industries, such as finance, manufacturing, and healthcare.
 ##  Key Files
+* data\_processing\_and\_visualization.ipynb, Jupyter notebook for SOP time series (TS) processing and visualization;
+* plot\_trace\_poincare\_sphere\_rotate.ipynb, Jupyter notebook for SOP rotation;
+* sop_classification_svm.py, Python script for SOP TS classification using support vector machine (SVM).
+
 ## Data Generation
 
 For proof of concept, we first generate SOP traces in a lab environment. In particular, we use a robot arm to emulate four different types of typical mechanical disturbances to a fiber cable and record the corresponding SOP traces. These four types of mechanical disturbances mimic "hit", "rotation", "swing", and "stretch",  respectively.  In total, we generate ~10000 traces, with an average of 2500 traces per movement (label). The following animations show the robot movements and associated MTS signatures.
