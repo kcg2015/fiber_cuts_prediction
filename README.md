@@ -1,8 +1,3 @@
-<script src="//yihui.org/js/math-code.js"></script>
-<!-- Just one possible MathJax CDN below. You may use others. -->
-<script async
-  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 
 ## Introduction
@@ -47,16 +42,6 @@ Visualization is crucial in helping us gain intuition on what type of ML tools a
 Image reference [https://www.researchgate.net/figure/Sample-of-the-MNIST-dataset-of-handwritten-digits_fig1_311806756]
 ### Stokes Vector Rotation
 Much like addressing the locality and translation invariance issue in image classification, we can "move" SOP traces to the same starting position on a Poincare Sphere. For example, as shown in the following figures, all the traces start form s1=0, s2 = -1, and s3 = 0 position. This operation can be accomplished by Stokes Vector Rotation.
-If we need to rotate back a Stokes vector $\mathbf{s}$ back to $ \mathbf{p}$, e.g, $\mathbf{p} = (0, -1, 0)^T $:
-* Calculate the rotation angle $\theta$: $\theta = arccos(\mathbf{s}, \mathbf{p})$
-* Calculate the rotation axis $\mathbf{n}$: $\mathbf{n} = (\mathbf{s} \times \mathbf{p})/|\mathbf{s} \times \mathbf{p}|$
-* Rotation: let $\mathbf{n} =(u_x, u_y, u_z)$, the roation matrix is given by:
-$$
-\begin{vmatrix}
-\cos(\theta) + u_x^2(1-cos(\theta))&u_xu_y(1-\cos(\theta)) - u_z\sin(\theta)&u_xu_z(1-\cos(\theta)) +u_y\sin(\theta)\\
-u_xu_y(1-\cos(\theta)) + u_z\sin(\theta)&\cos(\theta) + u_y^2(1-cos(\theta))&u_yu_z(1-\cos(\theta)) - u_x\sin(\theta)\\
-u_xu_z(1-\cos(\theta)) - u_y\sin(\theta)&u_yu_z(1-\cos(\theta)) + u_x\sin(\theta)&\cos(\theta) + u_z^2(1-cos(\theta))\\
-\end{vmatrix}
-$$
+
 ![img](figs/4_samples_s1_s2_s3_rot.png)
 ![img](figs/sphere_rot.png)
