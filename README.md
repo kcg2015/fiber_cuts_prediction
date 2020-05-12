@@ -49,3 +49,10 @@ Much like addressing the locality and translation invariance issue in image clas
 
 ![img](figs/4_samples_s1_s2_s3_rot.png)
 ![img](figs/sphere_rot.png)
+
+## Classification
+We focus on three promising ML algorithm for SOP TS classificatin: SVM, LSTM, and 1-D CNN.
+
+### SVM
+
+|Bias| Large|Small|
