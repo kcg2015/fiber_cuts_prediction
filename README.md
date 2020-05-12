@@ -55,5 +55,16 @@ We focus on three promising ML algorithm for SOP TS classificatin: SVM, LSTM, an
 
 ### SVM
 
-|Bias       | Large              |Small         |
-|---         |---                |---              |
+|Bias       | large              |small         |
+|---        |---                |---            |
+| C         | low               |high           |
+| gamma     | low               |high           |
+
+
+
+
+|Variance   | large             |small       |
+|---        |---                |---         |
+| C         | high              |low         |
+| gamma     | high              |low         |
+
