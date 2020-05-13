@@ -55,6 +55,8 @@ We focus on three promising ML algorithm for SOP TS classificatin: SVM, LSTM, an
 
 ### SVM
 
+We use Scikit-learn library 'SVC()' for SVM classification. In particular, we use RBF kernel. In the training, we focus on tuning two hyperparameters C and gamma 
+
 |Bias       | large              |small         |
 |---        |---                |---            |
 | C         | low               |high           |
