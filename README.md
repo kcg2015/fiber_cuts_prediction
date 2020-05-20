@@ -55,9 +55,9 @@ We focus on three promising ML algorithm for SOP TS classificatin: SVM, LSTM, an
 
 ### SVM
 
-We use Scikit-learn library `SVC()` for SVM classification. In particular, we use RBF kernel. In the training, we focus on tuning two hyperparameters C and gamma 
+We use Scikit-learn library `SVC()` for SVM classification. In particular, we use kernel SVM, with radial basis function (RBF) as the kernel. In the training, we focus on tuning two hyperparameters C and gamma. The impacts of the values of C and gamma on the bias-variance tradeoff are summarized in the following tables. 
 
-|Bias       | large              |small         |
+|Bias       |  Value is large              | Value is small         |
 |---        |---                |---            |
 | C         | low               |high           |
 | gamma     | low               |high           |
@@ -65,7 +65,7 @@ We use Scikit-learn library `SVC()` for SVM classification. In particular, we us
 
 
 
-|Variance   | large             |small       |
+|Variance   |  Value is large             |Value is small       |
 |---        |---                |---         |
 | C         | high              |low         |
 | gamma     | high              |low         |
