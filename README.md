@@ -51,7 +51,7 @@ Much like addressing the locality and translation invariance issue in image clas
 ![img](figs/sphere_rot.png)
 
 ## Classification
-We focus on three promising ML algorithm for SOP TS classificatin: SVM, LSTM, and 1-D CNN.
+We focus on three promising ML algorithms for SOP TS classification: SVM, LSTM, and 1-D CNN.
 
 ### SVM
 
@@ -70,3 +70,5 @@ We use Scikit-learn library `SVC()` for SVM classification. In particular, we us
 | C         | high              |low         |
 | gamma     | high              |low         |
 
+### Long-Short Term Memory (LSTM)
+### 1-D Convolutional Neural Network (CNN)
