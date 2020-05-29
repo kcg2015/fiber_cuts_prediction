@@ -11,6 +11,10 @@ We note that MTS classification and anomaly detection have a lot of relevance in
 * data\_processing\_and\_visualization.ipynb, Jupyter notebook for SOP time series (TS) processing and visualization;
 * plot\_trace\_poincare\_sphere\_rotate.ipynb, Jupyter notebook for SOP rotation;
 * sop_classification_svm.py, Python script for SOP TS classification using support vector machine (SVM).
+* sop_classification_lstm.py, Python script for SOP TS classification using Long-Short-Term-Memory (LSTM).
+* sop_classification_1d_cnn.py, Python script for SOP TS classification using 1-D Convolutional Neural Network (1-D CNN).
+
+
 
 ## Data Generation
 
